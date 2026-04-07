@@ -13,9 +13,9 @@ AEID-Model/
 │   ├── data_processing/
 │   │   ├── main_TLEDataProcessing.m
 │   │       ├── TLEDataHandle.m
-│   │       ├── TLEelments_Mutation.m
-│   │       └── LLAGenerate.m
-│   │   └── LLA2MLAT.m
+│   │       └── TLEelments_Mutation.m
+│   │   ├── main_SatIRI_DataGenerate.m
+│   │   └── main_LLA2MLAT.m
 │   │
 │   ├── data_analysis/
 │   │   ├── CorrelationAnalysis_F107Focus.m
@@ -44,6 +44,8 @@ AEID-Model/
 Run:
 ```matlab
 main_TLEDataProcessing.m
+main_SatIRI_DataGenerate.m
+main_LLA2MLAT.m
 ```
 
 This script:
