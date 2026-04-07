@@ -47,10 +47,10 @@ main_TLEDataProcessing.m
 ```
 
 This script:
-(1) Converts TLE coordinates
-(2) Removes maneuver-contaminated segments
-(3) Generates LLA trajectories
-(4) Builds the TLE–IRI dataset
+- Converts TLE coordinates
+- Removes maneuver-contaminated segments
+- Generates LLA trajectories
+- Builds the TLE–IRI dataset
 
 
 ### 2. Data Analysis
@@ -70,9 +70,9 @@ ParamsOptimizationMain_2ndLayer.m
 ParamsOptimizationMain_3rdLayer.m
 ```
 Supporting subfunctions:
-(1) Drag modeling
-(2) Activation function construction
-(3) Orbit propagation
+- Drag modeling
+- Activation function construction
+- Orbit propagation
 
 ## Dataset Description
 ### 1. Raw TLE Data
@@ -80,8 +80,8 @@ Source: Celestrak(https://celestrak.org/)
 ### 2. TLE–IRI Dataset
 MATLAB .mat format
 Includes:
-(1) Orbit states in TLE-intervals and sub-intervals;
-(2) Ionospheric parameters in sub-intervals from IRI-2020 model.
+- Orbit states in TLE-intervals and sub-intervals;
+- Ionospheric parameters in sub-intervals from IRI-2020 model.
 
 ## External Dependencies
 This repository uses the **AACGM-v2** library for geomagnetic coordinate conversion, which is required in: src/data_processing/LLA2MLAT.m
