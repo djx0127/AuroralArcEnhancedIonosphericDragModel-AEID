@@ -23,8 +23,9 @@ AEID-Model/
 │   │
 │   └── model_optimization/
 │       ├── main_ParamsOptimization_1stLayer.m
+│           └── ModelOptimizationComputation_1.m
 │       ├── main_ParamsOptimization_2ndLayer.m
-│           └── ModelOptimizationComputation_1and2.m
+│           └── ModelOptimizationComputation_2.m
 │       └── main_ParamsOptimization_3rdLayer.m
 │           └── ModelOptimizationComputation_3.m
 │
