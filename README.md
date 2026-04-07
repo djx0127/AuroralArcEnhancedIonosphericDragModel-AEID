@@ -2,10 +2,11 @@
 ## OverView
 Through the analysis of 14 years of orbital data from 8 satellite formations, this work provides evidence from a dynamics perspective for the extreme auroral-arc charging phenomena observed by satellites including DMSP. And a mathematical Auroral-Arc Enhanced Ionospheric Drag (AEID) Model is established to describe the ionospheric drag enhancement.
 
+---
 ## Repository Structure
-AEID-Model/ //
+AEID-Model/ 
 │
-├── README.md //
+├── README.md 
 ├── LICENSE
 ├── .gitignore
 │
@@ -31,6 +32,7 @@ AEID-Model/ //
 └── data/
     ├── TLE_raw/                  # original TLE data from CelesTrak(https://celestrak.org/)
     └── TLE_IRI_dataset/          # Processed TLE-IRI dataset
+---
 
 ## Requirements
 - MATLAB (recommended R2021a or later)
